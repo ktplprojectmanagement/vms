@@ -1454,6 +1454,7 @@ var base_url = window.location.origin;
               url : base_url+'/vms/index.php/Vendordata/send_approval',
               success : function(data)
               {
+                alert(data);
                $("#err_show").text("We have received your information. Thank you");
 $("#modal-container-204273").modal('show');$("#show_spin").css("display",'none');
 window.setTimeout(function() {
