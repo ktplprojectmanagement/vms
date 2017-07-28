@@ -123,7 +123,7 @@ img.emoji {
                     <div class="row">
                         <div class="header">
                             <div class="col-md-3" style="display:none">
-                               <div class="logo"><a href="<?php echo base_url(); ?>index.php/Vendordetails"><img src="http://kritvainvestments.com/vendor/Logo.png" alt="SaleJunction Digital Store" style="width: 125px;height: 47px;margin-top: -19px;" /></a></div>
+                               <div class="logo"><a href="<?php echo base_url(); ?>index.php/Vendordetails"><img src="http://52.172.210.251/vendor/Logo.png" alt="SaleJunction Digital Store" style="width: 125px;height: 47px;margin-top: -19px;" /></a></div>
                                 <!--End Logo-->
                             </div>
                             <div class="col-md-9"  style="display:none">

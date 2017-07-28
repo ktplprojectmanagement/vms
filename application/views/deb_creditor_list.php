@@ -67,7 +67,7 @@
 															<td><?php echo $vendor_details[$i]['Vendor_id']; ?></td>
 															<td><?php echo $vendor_details[$i]['Name']; ?></td>
 															<td>
-																<form method="post" target="_new" action="http://kritva.in/vms/index.php/Vendordata">
+																<form method="post" target="_new" action="http://52.172.210.251/vms/index.php/Vendordata">
 																	<input type="text" name="vendor_id" style="display: none" value="<?php echo $vendor_details[$i]['Vendor_id']; ?>">
 																	<input type="submit" name="submit"  value="Check">
 																</form>

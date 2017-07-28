@@ -185,7 +185,7 @@ VAT/CST,PAN Card, Service Tax, Excise duty (If Metal Power SAP data differs or d
                             if(isset($edit_user_details) && $edit_user_details != '')
                             {
                                 ?>
-                                <lable style="float: right;"><a href="http://kritva.in/vms/Metal_Power_Analytical_details.pdf" target="_blank">MPA GST Details</a></lable>
+                                <lable style="float: right;"><a href="http://52.172.210.251/vms/Metal_Power_Analytical_details.pdf" target="_blank">MPA GST Details</a></lable>
                         <?php
                             }
                         ?>
@@ -3628,9 +3628,9 @@ $('#back_tab_3').click(function(){
 $('#back_tab_31').click(function(){
     $('#tab6').addClass("active");
       $('#tab4').removeClass("active");
-      $('#tab6_menu').addClass("active");
+      $('#tab3_menu').addClass("active");
       $('#tab4_menu').removeClass("active");
-      $('#tab6').css("display",'block');
+      $('#tab3').css("display",'block');
       $('#tab4').css("display",'none');
 });
 $('#back_tab_61').click(function(){

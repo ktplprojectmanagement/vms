@@ -25,7 +25,7 @@
 		<!-- SIDEBAR -->
 		<div class="sidebar">
 			<div class="brand">
-				<a href="<?php echo base_url(); ?>index.php/Listall"><img src="http://kritvainvestments.com/vendor/Logo.png" alt="Metal Power" height="100px" width="100px" class="img-responsive logo"></a>
+				<a href="<?php echo base_url(); ?>index.php/Listall"><img src="http://52.172.210.251/vendor/Logo.png" alt="Metal Power" height="100px" width="100px" class="img-responsive logo"></a>
 			</div>
 			<div class="sidebar-scroll">
 				<nav>

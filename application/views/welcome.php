@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-   <link rel="stylesheet" href="http://kritvainvestments.com/pmsuser/css/email.css">
+<!--    <link rel="stylesheet" href="http://kritvainvestments.com/pmsuser/css/email.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style type="text/css">
@@ -33,7 +33,7 @@ label{
 
 <div class="container">
   <div class="logo">
-<img src="http://kritva.in/vms/Logo.png" alt="Metal Power" style="width:72px;max-width:72px">
+<img src="http://52.172.210.251/vms/Logo.png" alt="Metal Power" style="width:72px;max-width:72px">
 <hr >
   </div>
 Dear Business Partner (<?php if(isset($Name)) { echo $Name; } ?>),<br>
@@ -49,7 +49,7 @@ You are requested to access the below weblink and follow the instructions to pro
 Your Metal Power SAP Vendor ID : <?php if(isset($vendor_id)) { echo $vendor_id;} ?><br>
 Please click on below link to login to your portal.
 <br>
-<a href="http://kritva.in/vms/index.php/Vendorlogin/New_login/<?php if(isset($vendor_id)) { echo $vendor_id; } ?>/1">Click here</a>
+<a href="http://52.172.210.251/vms/index.php/Vendorlogin/New_login/<?php if(isset($vendor_id)) { echo $vendor_id; } ?>/1">Click here</a>
 
 </div>
 
